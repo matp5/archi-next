@@ -1,3 +1,6 @@
+body {
+  background-color: #f5f5f5; }
+
 .container {
   display: flex;
   justify-content: center;
@@ -8,11 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  padding-right: 25px;
-  padding-left: 25px;
-  margin-right: auto;
-  margin-left: auto; }
+  flex-wrap: wrap; }
 
 header {
   position: fixed;
@@ -56,7 +55,8 @@ header {
     bottom: 0;
     left: 0;
     background-image: linear-gradient(45deg, #0169b4 0%, #a72b8f 100%);
-    opacity: .9; }
+    opacity: .9;
+    height: 80vh; }
   .home h1 {
     position: absolute;
     top: 35%;
@@ -70,19 +70,16 @@ header {
 
 .features {
   background-color: #f5f5f5;
-  position: absolute;
-  height: 100%; }
-  .features article:nth-child(1) {
-    height: 50%; }
+  margin-bottom: 12em; }
+  .features article {
+    height: 100%;
+    width: 70%;
+    justify-content: space-between; }
   .features .feature {
-    width: 15%;
-    padding: 1em;
-    margin: 2em;
     text-align: center;
-    position: relative;
     background-color: #ffffff;
-    position: relative;
-    top: -15%; }
+    width: 30%;
+    padding: 2em 0 2em 0; }
     .features .feature h1 {
       color: #666666;
       font-family: Raleway;
@@ -96,8 +93,27 @@ header {
       font-size: 18px;
       font-weight: 500;
       line-height: 30px; }
-  .features .features__about {
-    width: 23%; }
+  .features .about {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10em; }
+    .features .about .features__about {
+      width: 50%; }
+      .features .about .features__about h1 {
+        color: #0169b4;
+        font-family: Raleway;
+        font-size: 50px;
+        font-weight: 500;
+        letter-spacing: 1.25px;
+        padding-bottom: 1em; }
+      .features .about .features__about p {
+        color: #666666;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px; }
+    .features .about img {
+      width: 50%; }
 
 .btnRead {
   border-radius: 24px;
@@ -115,3 +131,88 @@ header {
     box-shadow: 0 0 14px 2px rgba(1, 105, 180, 0.26);
     background-color: #0169b4;
     color: white; }
+
+.projects h1 {
+  color: #0169b4;
+  font-family: Raleway;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 1.25px;
+  margin-left: 14%;
+  padding-bottom: 1.5em; }
+
+.projects img {
+  width: 25%;
+  height: 350px; }
+
+.solutions {
+  margin: 5% 14% 2% 14%; }
+  .solutions h1 {
+    color: #0169b4;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 1.25px; }
+  .solutions .container {
+    justify-content: space-between; }
+  .solutions .solutions__text {
+    width: 35%; }
+  .solutions article h2 {
+    font-family: Raleway;
+    color: #333333;
+    font-size: 30px;
+    line-height: 26.03px;
+    padding: 2em 0 .2em 0; }
+  .solutions article p {
+    font-family: Raleway;
+    color: #878787;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 42.04px; }
+
+.blog {
+  background-color: white; }
+  .blog div {
+    margin: 0 0 2% 14%;
+    display: flex;
+    justify-content: space-between; }
+    .blog div img {
+      width: 100%; }
+    .blog div article {
+      width: 50%; }
+      .blog div article h1 {
+        color: #0066cc;
+        font-family: Raleway;
+        font-size: 50px;
+        font-weight: 500;
+        letter-spacing: 1.25px;
+        padding-bottom: 1.8em;
+        padding-top: 2em; }
+      .blog div article p {
+        color: #878787;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: Raleway;
+        font-weight: 500;
+        line-height: 42px; }
+        .blog div article p span {
+          font-family: "Raleway Medium";
+          font-size: 45px;
+          font-weight: 700; }
+      .blog div article h2 {
+        color: #333333;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 600;
+        padding-top: 2em; }
+      .blog div article input {
+        float: right; }
+
+.news article {
+  margin: 5% 14% 10% 14%; }
+  .news article h1 {
+    color: #0066cc;
+    font-family: Raleway;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 1.25px; }
