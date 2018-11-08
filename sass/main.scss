@@ -315,5 +315,105 @@ header {
             font-weight: 500;
             letter-spacing: 1.25px;
         }
+
+        .news__items {
+            display: flex;
+
+            .news__text {
+                width: 33%;
+                align-items: flex-start;
+                justify-content: flex-start;
+                padding-top: 5em;
+
+                h2 {
+                    color: #cccccc;
+                    font-family: $font-ral;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    font-size: 60px;
+                    padding-right: 1vw;
+
+
+                    span {
+                        font-size: 22px;
+                    }
+                }
+
+                h3 {
+                    color: #333333;
+                    font-family: "Raleway - Semi Bold";
+                    font-size: 24px;
+                    font-weight: 400;
+                    letter-spacing: 0.36px;
+                    line-height: 36px;
+
+                }
+
+                p {
+                    width: 88%;
+                    color: #878787;
+                    font-family: $font-ral;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    padding-top: 1em;
+                }
+            }
+        }
     }
+}
+
+//Section Contact 
+.contact {
+    background-image: linear-gradient(45deg, #0169b4 0%, #a72b8f 100%);
+    height: 100%;
+
+    .contact__items {
+        padding-top: 5em;
+
+        img {
+            border: 1.5px solid white;
+            border-radius: 50%;
+            padding: 2em;
+            width: 15px;
+            height: 20px;
+
+        }
+    }
+
+
+
+    h1 {
+        color: #ffffff;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 0.35px;
+        padding: 1em;
+    }
+
+    .contact__icons {
+        img {
+            margin: 5em;
+        }
+    }
+
+    .btn {
+        height: 50px;
+        width: 100px;
+        background-color: #ffffff;
+        border-top-left-radius: 150px;
+        border-top-right-radius: 150px;
+
+        position: relative;
+        left: 50%;
+
+        a {
+            font-size: 2em;
+            color: #a72b8f;
+            text-decoration: none;
+        }
+    }
+
+
 }

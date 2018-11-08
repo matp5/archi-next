@@ -216,3 +216,67 @@ header {
     font-size: 50px;
     font-weight: 500;
     letter-spacing: 1.25px; }
+  .news article .news__items {
+    display: flex; }
+    .news article .news__items .news__text {
+      width: 33%;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding-top: 5em; }
+      .news article .news__items .news__text h2 {
+        color: #cccccc;
+        font-family: Raleway;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 60px;
+        padding-right: 1vw; }
+        .news article .news__items .news__text h2 span {
+          font-size: 22px; }
+      .news article .news__items .news__text h3 {
+        color: #333333;
+        font-family: "Raleway - Semi Bold";
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: 0.36px;
+        line-height: 36px; }
+      .news article .news__items .news__text p {
+        width: 88%;
+        color: #878787;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        padding-top: 1em; }
+
+.contact {
+  background-image: linear-gradient(45deg, #0169b4 0%, #a72b8f 100%);
+  height: 100%; }
+  .contact .contact__items {
+    padding-top: 5em; }
+    .contact .contact__items img {
+      border: 1.5px solid white;
+      border-radius: 50%;
+      padding: 2em;
+      width: 15px;
+      height: 20px; }
+  .contact h1 {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.35px;
+    padding: 1em; }
+  .contact .contact__icons img {
+    margin: 5em; }
+  .contact .btn {
+    height: 50px;
+    width: 100px;
+    background-color: #ffffff;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    position: relative;
+    left: 50%; }
+    .contact .btn a {
+      font-size: 2em;
+      color: #a72b8f;
+      text-decoration: none; }
