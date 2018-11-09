@@ -1,0 +1,86 @@
+@media (max-width: 900px) {
+
+    .home {
+        h1 {
+            font-size: 6vw;
+            line-height: 7vw;
+        }
+    }
+
+    .features {
+        article {
+
+            .feature {
+                width: 100%;
+            }
+
+            .about {
+                img {
+                    padding: 5em 0 0 0;
+                    min-width: 100%;
+                }
+
+                .features__about {
+                    width: 100%;
+                }
+
+            }
+        }
+    }
+
+    .solutions {
+        margin-bottom: 5em;
+
+        .solutions__text {
+            width: 100%;
+        }
+    }
+
+    .projects {
+        img {
+            width: 100%;
+            max-height: 40%;
+        }
+    }
+
+    .blog {
+
+
+        div {
+            margin: 0 0 0 14%;
+
+            article {
+                width: 100%;
+            }
+        }
+
+        img {
+            display: none;
+        }
+    }
+
+    .news {
+        article {
+            .news__items {
+                .news__text {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .contact {
+        .contact__items {
+            width: 50%;
+            font-size: 50%;
+        }
+
+        .contact__icons {
+            margin-top: 2em;
+
+            img {
+                margin: 1em;
+            }
+        }
+    }
+}

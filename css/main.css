@@ -146,7 +146,7 @@ header {
   height: 350px; }
 
 .solutions {
-  margin: 5% 14% 2% 14%; }
+  margin: 5em 14% 2% 14%; }
   .solutions h1 {
     color: #0169b4;
     font-family: Montserrat;
@@ -161,7 +161,7 @@ header {
     font-family: Raleway;
     color: #333333;
     font-size: 30px;
-    line-height: 26.03px;
+    line-height: 33px;
     padding: 2em 0 .2em 0; }
   .solutions article p {
     font-family: Raleway;
@@ -171,7 +171,8 @@ header {
     line-height: 42.04px; }
 
 .blog {
-  background-color: white; }
+  background-color: white;
+  padding-bottom: 5em; }
   .blog div {
     margin: 0 0 2% 14%;
     display: flex;
@@ -209,7 +210,7 @@ header {
         float: right; }
 
 .news article {
-  margin: 5% 14% 10% 14%; }
+  margin: 5em 14% 10% 14%; }
   .news article h1 {
     color: #0066cc;
     font-family: Raleway;
@@ -217,7 +218,8 @@ header {
     font-weight: 500;
     letter-spacing: 1.25px; }
   .news article .news__items {
-    display: flex; }
+    display: flex;
+    flex-wrap: wrap; }
     .news article .news__items .news__text {
       width: 33%;
       align-items: flex-start;
@@ -275,7 +277,8 @@ header {
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
     position: relative;
-    left: 50%; }
+    left: 50%;
+    transform: translateX(-50px); }
     .contact .btn a {
       font-size: 2em;
       color: #a72b8f;

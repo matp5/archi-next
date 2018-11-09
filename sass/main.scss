@@ -205,7 +205,7 @@ header {
 
 //Section Solutions 
 .solutions {
-    margin: 5% 14% 2% 14%;
+    margin: 5em 14% 2% 14%;
 
 
     h1 {
@@ -229,7 +229,7 @@ header {
             font-family: $font-ral;
             color: #333333;
             font-size: 30px;
-            line-height: 26.03px;
+            line-height: 33px;
             padding: 2em 0 .2em 0;
 
         }
@@ -247,6 +247,7 @@ header {
 //Section Blog 
 .blog {
     background-color: white;
+    padding-bottom: 5em;
 
     div {
         margin: 0 0 2% 14%;
@@ -306,7 +307,7 @@ header {
 .news {
 
     article {
-        margin: 5% 14% 10% 14%;
+        margin: 5em 14% 10% 14%;
 
         h1 {
             color: #0066cc;
@@ -318,6 +319,7 @@ header {
 
         .news__items {
             display: flex;
+            flex-wrap: wrap;
 
             .news__text {
                 width: 33%;
@@ -407,6 +409,7 @@ header {
 
         position: relative;
         left: 50%;
+        transform: translateX(-50px);
 
         a {
             font-size: 2em;
