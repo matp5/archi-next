@@ -91,12 +91,14 @@ header {
         font-weight: 300;
         line-height: 75px;
         color: white;
+
+        span {}
     }
 }
 
 .features {
     background-color: #f5f5f5;
-    margin-bottom: 12em;
+    margin-bottom: 5em;
 
     article {
         height: 100%;
@@ -136,7 +138,7 @@ header {
         margin-top: 10em;
 
         .features__about {
-            width: 50%;
+            width: 45%;
 
             h1 {
                 color: #0169b4;
@@ -195,6 +197,8 @@ header {
         letter-spacing: 1.25px;
         margin-left: 14%;
         padding-bottom: 1.5em;
+        padding-top: 2em;
+
     }
 
     img {
@@ -205,7 +209,7 @@ header {
 
 //Section Solutions 
 .solutions {
-    margin: 5em 14% 2% 14%;
+    margin: 0 14% 0 14%;
 
 
     h1 {
@@ -214,6 +218,8 @@ header {
         font-size: 50px;
         font-weight: 500;
         letter-spacing: 1.25px;
+        padding-top: 2em;
+
     }
 
     .container {
@@ -225,6 +231,8 @@ header {
     }
 
     article {
+        padding-bottom: 5em;
+
         h2 {
             font-family: $font-ral;
             color: #333333;
@@ -250,7 +258,7 @@ header {
     padding-bottom: 5em;
 
     div {
-        margin: 0 0 2% 14%;
+        margin: 0 0 0 14%;
         display: flex;
         justify-content: space-between;
 
@@ -267,7 +275,7 @@ header {
                 font-size: 50px;
                 font-weight: 500;
                 letter-spacing: 1.25px;
-                padding-bottom: 1.8em;
+                padding-bottom: 1em;
                 padding-top: 2em;
             }
 
@@ -307,7 +315,7 @@ header {
 .news {
 
     article {
-        margin: 5em 14% 10% 14%;
+        margin: 0 14% 0 14%;
 
         h1 {
             color: #0066cc;
@@ -315,11 +323,14 @@ header {
             font-size: 50px;
             font-weight: 500;
             letter-spacing: 1.25px;
+            padding-top: 2em;
+
         }
 
         .news__items {
             display: flex;
             flex-wrap: wrap;
+            padding-bottom: 5em;
 
             .news__text {
                 width: 33%;

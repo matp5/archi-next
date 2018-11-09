@@ -18,16 +18,16 @@
 <body>
     <header>
         <nav class='nav'>
-            <a href="">
+            <a href="#">
                 <img src="img/logo.png" alt="">
             </a>
 
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Solutions</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#one">Home</a></li>
+                <li><a href="#two">Projects</a></li>
+                <li><a href="#three">Solutions</a></li>
+                <li><a href="#four">Blog</a></li>
+                <li><a href="#five">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -81,7 +81,7 @@
 
     </section>
 
-    <section class='projects'>
+    <section class='projects' id='two'>
         <h1>Our Projects</h1>
         <div class='container'>
             <img src="img/proj1.jpg" alt="">
@@ -91,7 +91,7 @@
         </div>
     </section>
 
-    <section class='solutions'>
+    <section class='solutions' id='three'>
         <h1>Solutions</h1>
         <div class='container'>
             <div class='solutions__text'>
@@ -124,7 +124,7 @@
         </div>
     </section>
 
-    <section class='blog'>
+    <section class='blog' id='four'>
         <div>
             <article>
                 <h1>What people say</h1>
@@ -184,7 +184,7 @@
 
     </section>
 
-    <section class='contact' style='text-align: center;'>
+    <section class='contact' style='text-align: center;' id='five'>
         <div class='container'>
             <div class='container  contact__items' style='flex-direction: column; justify-content: space-between'>
                 <img src="img/adress.png" alt="">
@@ -215,12 +215,20 @@
         </div>
 
         <div class='btn' style='display: flex; justify-content: center; align-items: center; '>
-            <a href="">&#x25B2;</a>
+            <a href="#one">&#x25B2;</a>
         </div>
 
 
     </section>
 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src='js/smooth.js'></script>
+    <script src='js/nav.js'></script>
+
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src='js/scrollReveal.js'></script>
 </body>
 
 </html>
